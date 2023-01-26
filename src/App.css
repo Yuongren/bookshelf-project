@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card  button{
+  margin-top: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card{
+  width: 20%;
+  height: 25px;
+  margin-left: 0;
+  padding: 0;
+  margin-top: 10px;
+  
+}
+.card-body{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  height: 100%;
+  width: auto;
+}
+.card img{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.card:hover{
+  background-color: lightblue;
+  color: rgb(20, 4, 245);
+  transform: scale(1.03);
+
+}
+.shelf{
+  width: 1600px;
+  height: 300px;
+  background-color: lightblue;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin: auto;
+  
+
+}
+.search{
+  padding-top: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.inputsearch{
+  
+  margin: auto;
+  width: 800px;
+  height: 70px;
+  border-radius: 30px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 20px;
+ 
+}
+.card-title{
+  font-weight: bolder;
+}
+.card-text{
+  font-style: italic;
+  color: red;
+}
+body{
+  background-image: url("/home/student/Development/code/phase2/google-library-group4/src/components/assets/h.webp");
 }
