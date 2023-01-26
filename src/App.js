@@ -15,7 +15,7 @@ function App() {
     setCurrentForm(forName);
   ;}
   return (
-    <div className="App">
+    <div className="">
         <Navbar  />
       
       <Routes>

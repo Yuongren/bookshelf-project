@@ -8,7 +8,8 @@ function Signup (props) {
         console.log(email);
     }
     return (
-        <div className="auth-form-container">
+       <div className="App">
+         <div className="auth-form-container">
             <h2>Signup</h2>
         <form className="signup-form" onSubmit={handleSubmit}>
             <label htmlFor="name">Full name</label>
@@ -21,6 +22,7 @@ function Signup (props) {
         </form>
         <button className="link-btn" onClick={() => props.onFormSwitch("login")}>Already have an account? login.</button>
     </div>
+       </div>
     )
 }
 export default Signup;

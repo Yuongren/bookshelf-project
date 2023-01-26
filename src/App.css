@@ -1,12 +1,17 @@
-
+.navbar{
+  background-color: black;
+  color: bisque;
+  text-decoration: none;
+  font-size: larger;
+}
 
 .card  button{
   margin-top: auto;
 }
 .card{
   width: 20%;
-  height: 450px;
-  float: right;
+  height: 20%;
+  float: left;
   margin-left: 0;
   padding: 0;
   margin-top: 10px;
@@ -27,7 +32,7 @@
   object-fit: contain;
 }
 .card:hover{
-  background-color: lightblue;
+  background-color: bisque;
   color: rgb(20, 4, 245);
   transform: scale(1.03);
 
@@ -35,7 +40,7 @@
 .shelf{
   width: 1600px;
   height: 350px;
-  background-color: lightblue;
+  background-color: bisque;
   border-radius: 20px;
   display: flex;
   margin: auto;
@@ -93,4 +98,47 @@
 }
 .para{
   font-size: 150%;
+}
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(79deg, #2FA5DB, #A8A3A8 48%, #E753E0);
+}
+.auth-form-container,.login-form, .signup-form {
+  display: flex;
+  flex-direction: column;
+}
+.auth-form-container {
+  padding: 5rem;
+  border: 1px solid rgb(12, 10, 10);
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+input {
+  opacity: 0.6;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  opacity: 0.2;
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(37, 88, 199);
+}
+.link-btn {
+  background: none;
+  color: rgb(19, 12, 12);
+  text-decoration: underline;
 }
