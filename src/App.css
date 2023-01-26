@@ -5,7 +5,8 @@
 }
 .card{
   width: 20%;
-  height: 25px;
+  height: 450px;
+  float: right;
   margin-left: 0;
   padding: 0;
   margin-top: 10px;
@@ -21,8 +22,8 @@
   width: auto;
 }
 .card img{
-  width: 25px;
-  height: 25px;
+  width: 250px;
+  height: 200px;
   object-fit: contain;
 }
 .card:hover{
@@ -33,18 +34,24 @@
 }
 .shelf{
   width: 1600px;
-  height: 300px;
+  height: 350px;
   background-color: lightblue;
   border-radius: 20px;
-  margin-top: 100px;
+  display: flex;
   margin: auto;
-  
-
+}
+.bookshelfitem{
+  text-align: center;
 }
 .search{
-  padding-top: 90px;
+  padding-top: 60px;
 }
-
+.thumbnail{
+  width: 800px;
+  height: 450px;
+  margin: 0;
+  padding: 0;
+}
 
 .inputsearch{
   
@@ -55,6 +62,7 @@
   outline: none;
   padding-left: 20px;
   font-size: 20px;
+  
  
 }
 .card-title{
@@ -64,6 +72,9 @@
   font-style: italic;
   color: red;
 }
-body{
+/* body{
   background-image: url("/home/student/Development/code/phase2/google-library-group4/src/components/assets/h.webp");
+} */
+.header-one{
+  color: red;
 }
