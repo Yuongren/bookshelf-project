@@ -33,6 +33,7 @@ export default function Main() {
 
   return (
     <>
+      <div className="pol">
       <div className="header">
         <div className="search">
           <input className="inputsearch"
@@ -62,6 +63,7 @@ export default function Main() {
           <Card book={bookData} addToShelf={addToShelf} />
         </div>
       </section>
+      </div>
     </>
   );
 }

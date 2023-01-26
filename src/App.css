@@ -72,9 +72,25 @@
   font-style: italic;
   color: red;
 }
-/* body{
-  background-image: url("/home/student/Development/code/phase2/google-library-group4/src/components/assets/h.webp");
-} */
+.pol{
+  background-image: url("/home/student/Documents/Phase-2/bookshelf-project/src/a.webp");
+}
 .header-one{
-  color: red;
+  padding: 5%;
+  color: bisque;
+  font-size: 400%;
+}
+.home-style{
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../src/pexels.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+  color: bisque;
+  display: block;
+  text-align: center;
+}
+.para{
+  font-size: 150%;
 }
