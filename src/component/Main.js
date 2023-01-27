@@ -52,7 +52,7 @@ export default function Main() {
         {bookShelf.map((a) => (
             <div>
              <img className="card-img-top" src="" alt=""/>
-          <div>{a.volumeInfo.title}</div>
+          <div className="rrr">{a.volumeInfo.title}</div>
           
           </div>
         ))}

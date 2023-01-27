@@ -42,7 +42,7 @@
   height: 350px;
   background-color: bisque;
   border-radius: 20px;
-  display: flex;
+  /* display: flex; */
   margin: auto;
 }
 .bookshelfitem{
@@ -145,4 +145,26 @@ button {
 }
 .login-dnt{
   border-radius: 10px;
+}
+.B{
+  width: 300px;
+  height: 300px;
+}
+.A{
+  background-color: bisque;
+  height: 100%;
+  width: 100%;
+}
+.J{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.E{
+  font-style: italic;
+  color: red;
+}
+.rrr{
+  margin-left: 20px;
 }
