@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from './component/Home';
 import Login from './component/Login/Login';
@@ -13,15 +13,16 @@ function App() {
   const [currentForm, setCurrentForm] = useState('login');
   const toggleForm = (forName) => {
     setCurrentForm(forName);
-  ;}
+    ;
+  }
   return (
     <div className="">
-        <Navbar  />
-      
+      <Navbar />
+
       <Routes>
-        <Route  path="/login" element=  {currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm}  />} />
-        <Route  path="/bookshelf" element={<Main />} />
-        <Route exact path="/" element={<Home  />} />
+        <Route path="/login" element={currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm} />} />
+        <Route path="/bookshelf" element={<Main />} />
+        <Route exact path="/" element={<Home />} />
       </Routes>
     </div>
   );

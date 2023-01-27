@@ -1,43 +1,54 @@
-.navbar{
+.navbar {
   background-color: black;
   color: bisque;
   text-decoration: none;
   font-size: larger;
 }
 
-.card  button{
+.card button {
   margin-top: auto;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 5px;
 }
-.card{
-  width: 20%;
-  height: 20%;
+
+.card {
+  width: 1000%;
+  height: 1000%;
+  background-color: bisque;
   float: left;
   margin-left: 0;
   padding: 0;
   margin-top: 10px;
-  
+  margin-bottom: 20px;
+
 }
-.card-body{
+
+.card-body {
   display: flex;
   flex-direction: column;
 }
 
-.container{
+.container {
   height: 100%;
   width: auto;
 }
-.card img{
-  width: 250px;
+
+.card img {
+  width: 300px;
   height: 200px;
   object-fit: contain;
 }
-.card:hover{
+
+.card:hover {
   background-color: bisque;
   color: rgb(20, 4, 245);
   transform: scale(1.03);
 
 }
-.shelf{
+
+.shelf {
   width: 1600px;
   height: 350px;
   background-color: bisque;
@@ -45,21 +56,24 @@
   /* display: flex; */
   margin: auto;
 }
-.bookshelfitem{
+
+.bookshelfitem {
   text-align: center;
 }
-.search{
+
+.search {
   padding-top: 60px;
 }
-.thumbnail{
+
+.thumbnail {
   width: 800px;
   height: 450px;
   margin: 0;
   padding: 0;
 }
 
-.inputsearch{
-  
+.inputsearch {
+
   margin: auto;
   width: 800px;
   height: 70px;
@@ -67,27 +81,32 @@
   outline: none;
   padding-left: 20px;
   font-size: 20px;
-  
- 
+
+
 }
-.card-title{
+
+.card-title {
   font-weight: bolder;
 }
-.card-text{
+
+.card-text {
   font-style: italic;
   color: red;
 }
-.pol{
-  /* background-image: url(../src/janko.jpg); */
-  background-color: black;
+
+.pol {
+  background-image: url(../src/janko.jpg);
+  /* background-color: black; */
 }
-.header-one{
+
+.header-one {
   padding: 5%;
   color: bisque;
   font-size: 400%;
 }
-.home-style{
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../src/pexels.jpg);
+
+.home-style {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../src/pexels.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -97,9 +116,11 @@
   display: block;
   text-align: center;
 }
-.para{
+
+.para {
   font-size: 150%;
 }
+
 .App {
   text-align: center;
   display: flex;
@@ -108,20 +129,26 @@
   justify-content: center;
   background: linear-gradient(79deg, #2FA5DB, #A8A3A8 48%, #E753E0);
 }
-.auth-form-container,.login-form, .signup-form {
+
+.auth-form-container,
+.login-form,
+.signup-form {
   display: flex;
   flex-direction: column;
 }
+
 .auth-form-container {
   padding: 5rem;
   border: 1px solid rgb(12, 10, 10);
   border-radius: 10px;
   margin: 0.5rem;
 }
+
 label {
   text-align: left;
   padding: 0.25rem 0;
 }
+
 input {
   opacity: 0.6;
   margin: 0.5rem 0;
@@ -129,6 +156,7 @@ input {
   border: none;
   border-radius: 10px;
 }
+
 button {
   opacity: 0.2;
   border: none;
@@ -138,33 +166,17 @@ button {
   cursor: pointer;
   color: rgb(37, 88, 199);
 }
+
 .link-btn {
   background: none;
   color: rgb(19, 12, 12);
   text-decoration: underline;
 }
-.login-dnt{
+
+.login-dnt {
   border-radius: 10px;
 }
-.B{
-  width: 300px;
-  height: 300px;
-}
-.A{
-  background-color: bisque;
-  height: 100%;
-  width: 100%;
-}
-.J{
-  background-color: blue;
-  color: white;
-  text-align: center;
-  padding: 5px;
-}
-.E{
-  font-style: italic;
-  color: red;
-}
-.rrr{
+
+.rrr {
   margin-left: 20px;
 }
