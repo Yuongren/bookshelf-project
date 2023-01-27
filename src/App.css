@@ -78,7 +78,7 @@
   color: red;
 }
 .pol{
-  background-image: url("/home/student/Documents/Phase-2/bookshelf-project/src/a.webp");
+  background-image: url(../src/janko.jpg);
 }
 .header-one{
   padding: 5%;
