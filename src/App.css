@@ -78,7 +78,8 @@
   color: red;
 }
 .pol{
-  background-image: url(../src/janko.jpg);
+  /* background-image: url(../src/janko.jpg); */
+  background-color: black;
 }
 .header-one{
   padding: 5%;
@@ -141,4 +142,7 @@ button {
   background: none;
   color: rgb(19, 12, 12);
   text-decoration: underline;
+}
+.login-dnt{
+  border-radius: 10px;
 }
