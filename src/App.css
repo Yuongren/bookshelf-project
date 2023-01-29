@@ -30,9 +30,14 @@
   flex-direction: column;
 }
 
+
+
 .container {
   height: 100%;
   width: auto;
+  background-color: bisque;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .card img {
@@ -48,12 +53,13 @@
 
 }
 
+
 .shelf {
   width: 1600px;
   height: 350px;
   background-color: bisque;
   border-radius: 20px;
-  /* display: flex; */
+  display: flex;
   margin: auto;
 }
 
@@ -63,6 +69,7 @@
 
 .search {
   padding-top: 60px;
+  margin-left: 530px;
 }
 
 .thumbnail {
@@ -95,8 +102,8 @@
 }
 
 .pol {
-  background-image: url(../src/janko.jpg);
-  /* background-color: black; */
+  background-image: url(../src/a.webp);
+
 }
 
 .header-one {

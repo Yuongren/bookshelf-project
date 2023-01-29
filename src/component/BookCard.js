@@ -9,24 +9,20 @@ function Card({ book, addToShelf }) {
                 // if(thumbnail!== undefined && amount !== undefined)
                 // {
                 return (
-
-                    <div className="card" key={index}>
-                        <img className="card-img-top" src={thumbnail} alt="" />
-                        <div className="card-body">
-                            <h6 className="card-title">{item.volumeInfo.title}</h6>
-                            <p className="card-text">By:{item.volumeInfo.authors}</p>
-                            <p className="card-text">By:{item.volumeInfo.description}</p>
-
-                            <p className="card-text">{amount}</p>
-                            <button className="btn btn-primary"
-                                onClick={() => addToShelf(item)}>ADD TO BOOKSHELF</button>
+                    <div className="container">
+                        <div className="book" key={index}>
+                            <img className="book-img-top" src={thumbnail} alt="" />
+                            <div className="book-body">
+                                <h6 className="book-title">{item.volumeInfo.title}</h6>
+                                <p className="book-text">By:{item.volumeInfo.authors}</p>
+                                <p className="book-text">Description:{item.volumeInfo.description}</p>
+                                <p className="book-text">{amount}</p>
+                                <button className="btn btn-primary"
+                                    onClick={() => addToShelf(item)}>ADD TO BOOKSHELF</button>
+                            </div>
                         </div>
                     </div>
-
                 );
-
-
-
             })}
         </>
     );

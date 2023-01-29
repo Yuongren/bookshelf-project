@@ -47,7 +47,7 @@ export default function Main() {
           <img src="" alt="" />
         </div>
 
-        <div className="shelf">
+        {/* <div className="shelf">
 
           {bookShelf.map((a) => (
             <div>
@@ -56,7 +56,17 @@ export default function Main() {
 
             </div>
           ))}
-        </div>
+        </div> */}
+           <div className="shelf">
+      <h2 className="bookshelfitem">YOUR BOOKSHELF ITEMS</h2>
+        {bookShelf.map((a) => (
+            <div className="thumbnail">
+            <img className="imaget" src={a.volumeInfo.imageLinks.smallThumbnail} alt="" />
+            <h6 className="titlet">{a.volumeInfo.title}</h6>
+            <p className="card-text">By:{a.volumeInfo.authors}</p>
+          </div>
+        ))}
+      </div>
         <section className="py-4 container">
           <div className="row justify-content-center">
             <div></div>
